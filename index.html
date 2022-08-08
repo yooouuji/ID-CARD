@@ -11,7 +11,7 @@
 
     <script>
         
-        function getthedate(){
+	function getthedate(){
     var mydate=new Date()
     var year=mydate.getYear()
 
@@ -70,12 +70,15 @@
             background-color:white;
             
         }
-        .pro {
+		.pro {
             display: flex;
             flex-direction: column;
             align-items: flex-start;
-            margin-bottom: 40px;
+            width: auto;
             height: 10%;
+        }
+        .pro > img{
+            width: 100%;
         }
 
         .main {
@@ -85,28 +88,9 @@
             font-weight: 800;
             margin: 0%;
         }
-        .sub {
-            color : #B1B1B5;
-            font-size: 14px;
-            font-weight: 400;
-            size : 14px;
-            margin-top: 10px;
-        }
 
-        .notion {
-            background: linear-gradient(287.96deg, rgba(0, 0, 0, 0.16) 15.1%, rgba(0, 0, 0, 0) 83.32%), #F7F6F3;
-            color:#84827D;
-        }
-        .brunch {
-            background: linear-gradient(287.96deg, rgba(0, 0, 0, 0.16) 15.1%, rgba(0, 0, 0, 0) 83.32%), #02C3BD;
-            color:#FFFFFF;
-        }
-        .facebook {
-            background: linear-gradient(287.96deg, rgba(0, 0, 0, 0.16) 15.1%, rgba(0, 0, 0, 0) 83.32%), #4167B3;
-            color:#FFFFFF;
-        }
         .wrap {
-            width: 320px;
+            /*width: 320px;*/
             margin: 30px auto 0px auto;
             display: flex;
             flex-direction: column;
